@@ -75,7 +75,7 @@ class LoaderCanvas extends CustomPainter {
     Paint _arc = Paint()
       ..color = Colors.lightBlue
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 7.0;
+      ..strokeWidth = 6.0;
 
     Paint _circle = Paint()
       ..color = Colors.lightBlueAccent[100]
