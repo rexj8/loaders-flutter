@@ -73,12 +73,12 @@ class LoaderCanvas extends CustomPainter {
   @override
   void paint(Canvas canvas, Size size) {
     Paint _arc = Paint()
-      ..color = Colors.deepOrange
+      ..color = Colors.lightBlue
       ..style = PaintingStyle.stroke
-      ..strokeWidth = 3.0;
+      ..strokeWidth = 7.0;
 
     Paint _circle = Paint()
-      ..color = Colors.grey[300]
+      ..color = Colors.lightBlueAccent[100]
       ..style = PaintingStyle.fill;
      
 
